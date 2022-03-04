@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYMusic - My Music</title>
+    <link rel="icon" href="./image/logo.png" type="image/icon">
+    <script src="https://kit.fontawesome.com/c09bfe400d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   
+
+    <!-- -------------------------------------Navbar----------------------- -->
+
+    <nav class="navbar">
+        <li><img src="./image/logo.png" alt="logo"><span>NYMusic</span></li>
+    </nav>
+    <div class="container">
+
+        <!-- ---------------------------- Section part -------------------- -->
+
+        <div class="songList">
+
+                <h2>Your song list</h2>
+                <div id="song-container">
+                    
+                </div>
+                
+            
+        </div>
+
+        <div class="song-info">
+            <img src="./image/logo.png" alt="">
+            <div class="song-detail">
+                <img src="./image/playing.gif" alt="">
+                <p>Let me Love you</p>
+            </div>
+            <div class="range" id="range">
+                <input type="range" id="range" name="range" value="0" nim="0" max="100">
+            </div>
+          
+            <div class="icon">
+                <i class="fa-solid fa-backward-fast"></i>
+                <i class="fa-solid fa-circle-play"></i>
+                <i class="fa-solid fa-forward-fast"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------Bottom Part-------------------- -->
+
+    <div class="bottom">
+        <div class="bottom-detail">
+            <div class="song-detail">
+                <img src="./image/playing.gif" id="playing-gif" alt="">
+                <p id="title">Let me Love you</p>
+            </div>
+            <div class="range">
+                <input type="range" id="progressBar" name="range" value="0" nim="0" max="100">
+            </div>
+          
+            <div class="icon">
+                <i class="fa-solid fa-backward-fast" id="previous"></i>
+                <i class="fa-solid fa-circle-play" id="play-song"></i>
+                <i class="fa-solid fa-forward-fast" id="next"></i>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
